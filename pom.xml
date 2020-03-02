@@ -28,4 +28,17 @@
     <version>3.7.0.1746</version>
 </dependency>
   </dependencies>
+  <distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>Internal Releases</name>
+            <url>http://3.88.252.83:8081/nexus/content/repositories/99/</url>
+        </repository>
+        <snapshotRepository>
+            <id>deployment</id>
+            <name>Internal Snapshot Releases</name>
+            <url>http://3.88.252.83:8081/nexus/content/repositories/99/</url>
+        </snapshotRepository>
+    </distributionManagement>
+
 </project>
