@@ -28,18 +28,18 @@
     <version>3.7.0.1746</version>
 </dependency>
   </dependencies>
-//  <distributionManagement>
-  //      <repository>
-    //        <id>deployment</id>
-      //      <name>nexus</name>
-        //    <url>http://34.200.41.57:8081/nexus/content/repositories/releases</url>
-        //</repository>
-        // <snapshotRepository>
-          //  <id>deployment</id>
-            //<name>nexus</name>
-            //<url>http://34.200.41.57:8081/nexus/content/repositories/snapshots</url>
-        //</snapshotRepository>
-    //</distributionManagement>
+  <!--<distributionManagement>
+        <repository>
+            <id>deployment</id>
+            <name>nexus</name>
+            <url>http://34.200.41.57:8081/nexus/content/repositories/releases</url>
+        </repository>
+         <snapshotRepository>
+          <id>deployment</id>
+        <name>nexus</name>
+        <url>http://34.200.41.57:8081/nexus/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement> -->
   
   <distributionManagement>
            <snapshotRepository>
