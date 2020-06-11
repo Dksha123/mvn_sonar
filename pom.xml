@@ -49,9 +49,10 @@
    </distributionManagement> -->
  
     <distributionManagement>
-           <snapshotRepository>
-              <id>artifactory</id>
-              <url>http://54.160.122.36:8081/artifactory/content/repositories/snapshots</url>
-           </snapshotRepository>
-   </distributionManagement>
+    <snapshotRepository>
+        <id>artifactory</id>
+       
+        <url>http://54.160.122.36:8081/artifactory/libs-snapshot-local</url>
+    </snapshotRepository>
+</distributionManagement>>
 </project>
