@@ -50,7 +50,7 @@
  
     <distributionManagement>
     <snapshotRepository>
-        <id>artifactory</id> 
+        <id>snapshots</id>
         <url>http://54.160.122.36:8081/artifactory/libs-snapshot-local</url>
     </snapshotRepository>
 </distributionManagement>
