@@ -41,11 +41,17 @@
         </snapshotRepository>
     </distributionManagement> -->
   
-  <distributionManagement>
+<!--  <distributionManagement>
            <snapshotRepository>
               <id>nexus</id>
               <url>http://3.229.122.67:8081/nexus/content/repositories/snapshots</url>
            </snapshotRepository>
+   </distributionManagement> -->
+ 
+    <distributionManagement>
+           <snapshotRepository>
+              <id>artifactory</id>
+              <url>http://54.160.122.36:8081/artifactory/content/repositories/snapshots</url>
+           </snapshotRepository>
    </distributionManagement>
-
 </project>
